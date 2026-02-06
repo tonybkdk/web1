@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    /*grid-template-rows: 200px 400px 200px;*/
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 200px 1fr;
+    height: 100vh;
+    grid-template-areas: 
+    "header header"
+    "sidebar sidebar"
+    "main main"
+    "footer footer"
+    ;
+
+
+}
+
+header{
+    background: lightblue;
+    padding:1em;
+    grid-area: header;
+
+}
+
+aside{
+    background: red;
+    padding: 1em;
+    grid-area: sidebar;
+}
+
+main{
+    background:gray;
+    padding: 1em;
+    grid-area: main;
+    
+}
+
+footer{
+    background: gold;
+    padding: 1em;
+    grid-area: footer;
+}
