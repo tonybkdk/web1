@@ -22,7 +22,7 @@ header{
 }
 
 aside{
-    background: red;
+    background: blue;
     padding: 1em;
     grid-area: sidebar;
 }
