@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Quiz - Q3</title>
+</head>
+<body>
+  <div class="container">
+    <h1>What do you usually do with side quests?</h1>
+
+    <div class="question">
+      <label><input type="radio" name="q3" value="A" /> A. I try to complete all of them</label>
+      <label><input type="radio" name="q3" value="B" /> B. I decide based on the rewards</label>
+      <label><input type="radio" name="q3" value="C" /> C. I do them if the story is interesting</label>
+      <label><input type="radio" name="q3" value="D" /> D. I skip them whenever possible</label>
+    </div>
+
+    <div class="button-group">
+      <button onclick="goBack('page2.html')">Back</button>
+      <button onclick="goNext('q3', 'page4.html')">Next</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Quiz - Q2</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Which gameplay style do you prefer?</h1>
+
+    <div class="question">
+      <label><input type="radio" name="q2" value="A" /> A. Free exploration</label>
+      <label><input type="radio" name="q2" value="B" /> B. Competitive gameplay</label>
+      <label><input type="radio" name="q2" value="C" /> C. Following a storyline</label>
+      <label><input type="radio" name="q2" value="D" /> D. Casual play</label>
+    </div>
+
+    <div class="button-group">
+      <button onclick="goBack('page1.html')">Back</button>
+      <button onclick="goNext('q2', 'page3.html')">Next</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
